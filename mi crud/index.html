@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crud_Andres</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+        <script src="./js/src/arreglo.js"></script>
+  </head>
+  <body>
+    <!-------------------------------------------------- main container ---------------------------------------->
+    <div class="container">
+      <!----------------------------------- button to create a new car registration -------------------------->
+      <div class="buttonNewCar">
+        <button id="menu">Create New Car</button>
+      </div>
+
+      <!----------------------------------------- car registration creation form ----------------------------->
+      <div id="formMenu">
+        <form id="addCar">
+          <div class="inputsForm">
+            <!---------------------------------------------- car brand --------------------------------------->
+            <div class="input">
+              <label for="nameCar">Name: </label>
+              <input type="text" id="nameCar" required />
+            </div>
+
+            <!---------------------------------------------- car model --------------------------------------->
+            <div class="input">
+              <label for="modelOfCar">Model: </label>
+              <input type="text" id="modelOfCar" required />
+            </div>
+
+            <!---------------------------------------- number of doors of the car ---------------------------->
+            <div class="input">
+              <label for="doors">Doors: </label><br />
+              <input type="tel" id="doors" required />
+            </div>
+
+            <!-------------------------------------------------- car color ----------------------------------->
+            <div class="input">
+              <label for="colorCar">Color: </label><br />
+              <input type="text" id="colorCar" required />
+            </div>
+
+            <!------------------------------------------------------- car brand ------------------------------>
+            <div class="input">
+              <label for="brandOfCar">Brand: </label>
+              <input type="text" id="brandOfCar" required />
+            </div>
+          </div>
+          <div class="center-h">
+            <button type="submit" class="buttonSave">Save</button>
+          </div>
+          <hr class="line-h" />
+        </form>
+      </div>
+
+      <div>
+        <div class="infoCar">
+          <h2>Name</h2>
+          <h2>Model</h2>
+          <h2>Doors</h2>
+          <h2>Color</h2>
+          <h2>Brand</h2>
+        </div>
+      </div>
+
+      <div id="newRegister"></div>
+    </div>
+
+    <script src="./js/src/variables.js"></script>
+    <script src="./js/src/funciones.js"></script>
+    <script src="./js/src/addEvents.js"></script>
+
+    <!-- <script src="./js/build/main.bundle.js"></script> -->
+  </body>
+</html>

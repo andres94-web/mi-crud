@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@200&display=swap");
+
+body {
+  font-family: "Encode Sans Semi Expanded", sans-serif;
+  background-color: #cac8c8;
+  font-family: "Poppins";
+}
+
+/* =========================================== main container ==================================== */
+.container {
+  margin: auto;
+  margin-top: 100px;
+  width: 80%;
+  box-shadow: 0, 0, 0, 0.5;
+}
+
+/* ====================================== create new user button ==================================== */
+.buttonNewCar button {
+  border: 0;
+  padding: 15px;
+  background-color: #198cd3;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #ecebeb;
+  cursor: pointer;
+}
+
+.buttonNewCar button:hover {
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.41);
+}
+
+/* ====================================== formulario ==================================== */
+.inputsForm {
+  display: flex;
+}
+
+.input input {
+  width: 90%;
+  height: 35px;
+  border: solid 2px;
+  border-radius: 5px;
+}
+
+.input input:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* ====================================== send button save information ==================================== */
+.buttonSave {
+  border: 0;
+  padding: 15px;
+  background-color: #198cd3;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  width: 12.5%;
+  margin-top: 30px;
+}
+
+.buttonSave:hover {
+  background-color: #000;
+  box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.41);
+  color: #fff;
+}
+
+#menu {
+  margin-bottom: 30px;
+}
+
+/* ====================================== styles for created elements ==================================== */
+.carItem {
+  display: flex;
+  margin-top: 3px;
+  background-color: #f6f6f6;
+}
+
+.infoCar {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonsAC {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.update {
+  color: #fff;
+  background-color: #198cd3;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.update:hover {
+  background-color: #000;
+  box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.41);
+}
+
+.delete {
+  background-color: #d41607;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: #000;
+  box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.41);
+}
